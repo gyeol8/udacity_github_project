@@ -6,6 +6,7 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 
+#print start
 print('Hello! Let\'s explore some US bikeshare data!')
 
 
@@ -127,6 +128,8 @@ def trip_duration_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
 
+
+#user Gender, Birth year
 
 def user_stats(df):
     """Displays statistics on bikeshare users."""
