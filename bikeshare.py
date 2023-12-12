@@ -6,7 +6,8 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 
-print('Hello! Let\'s explore some US bikeshare data!')
+#Hi!!!
+print('HI! Let\'s explore some US bikeshare data!')
 
 
 def get_filters():
